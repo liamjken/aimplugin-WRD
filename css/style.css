@@ -1,0 +1,479 @@
+ .aim-btn-table{
+        width:206px;
+        color: white;
+        position: relative;
+        left: -2px;
+    } 
+
+.aim-btn-table > tbody tr td {
+    border-bottom: none;
+}
+
+.aim-btn-table img{
+   width: 32px;
+    height: 32px;
+}
+
+.vehicle-slider .fa.fa-angle-right{
+	z-index:1000!important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+    
+    .aim-btn-text{
+		font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+         position: relative;
+    left:1px;
+        color: white;
+        
+    }    
+    
+
+.reserve-button{
+    
+    background: #383838;
+        width: 52px;
+        height: 52px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s!important;
+    color: white!important;
+    overflow: hidden;
+    box-shadow: none!important;
+    padding: 0 12px;
+margin: 5px auto;
+    text-align: left;
+
+}
+    
+.reserve-button:hover{
+    background: #00B2FF;
+    width: 190px;
+    
+    } 
+    
+.credit-button{
+    
+    background: #383838;
+        width: 52px;
+        height: 52px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s!important;
+    color: white!important;
+    overflow: hidden;
+    box-shadow: none!important;
+    padding: 0 9px;
+margin: 5px auto;
+    text-align: left;
+
+}
+    
+.credit-button:hover{
+    background: #00CA14;
+    width: 190px;
+    
+    } 
+
+
+.btest-drive-button{
+    background: #383838;
+        width: 52px;
+        height: 52px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s!important;
+    color: white!important;
+    overflow: hidden;
+    box-shadow: none!important;
+    padding: 0 9px;
+margin: 5px auto;
+    text-align: left;
+}
+
+.btest-drive-button:hover{
+     background: #FFB800;
+    width: 190px;
+    
+}
+
+
+.vtrade-button{
+    background: #383838;
+        width: 52px;
+        height: 52px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s!important;
+    color: white!important;
+    overflow: hidden;
+    box-shadow: none!important;
+    padding: 0 9px;
+margin: 5px auto;
+    text-align: left;
+    
+}
+
+.vtrade-button:hover{
+     background: #FF0000;
+    width: 190px;
+    
+}
+
+.moffer-button{
+    background: #383838;
+        width: 52px;
+        height: 52px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s!important;
+    color: white!important;
+    overflow: hidden;
+    box-shadow: none!important;
+    padding: 0 9px;
+margin: 5px auto;
+    text-align: left;
+    
+}
+
+.moffer-button:hover{
+     background: #00E2AC;
+    width: 190px;
+}
+
+.greview-button{
+    background: #383838;
+        width: 52px;
+        height: 52px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s!important;
+    color: white!important;
+    overflow: hidden;
+    box-shadow: none!important;
+    padding: 0 9px;
+margin: 5px auto;
+    text-align: left;
+}
+
+.greview-button:hover{
+    background: #BABABA;
+    width: 190px;
+}
+
+.insurance-button{
+    background: #383838;
+        width: 52px;
+        height: 52px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s!important;
+    color: white!important;
+    overflow: hidden;
+    box-shadow: none!important;
+    padding: 0 9px;
+margin: 5px auto;
+    text-align: left;
+    
+}
+
+.insurance-button:hover{
+    background: #383838;
+    width: 190px;
+}
+
+
+.aim-floating-btns{
+    width:330px; position: fixed; z-index:999; right: -60px;
+}
+
+
+.aim-btn-box{
+    display: inline;
+}
+
+
+@media screen and (max-width: 415px) and (orientation: portrait) {
+    
+   .aim-btn-box{
+}
+    
+    .aim-floating-btns{
+    width:auto; right:0; top: 160px;
+}
+    
+    
+}
+
+@media screen and (max-width: 870px) and (orientation: landscape) {
+    
+   .aim-btn-box{}
+    
+    .aim-floating-btns{
+        
+        width:auto; right:0; top:0;
+    }
+    
+    .reserve-button, .credit-button, .btest-drive-button, .vtrade-button, .moffer-button, .greview-button, .insurance-button  {
+        
+        margin: 0px auto;
+        width: 52px;
+        height: 52px;
+        
+    }
+    
+    .aim-btn-table img {
+    width: 32px;
+    height: 32px;
+}
+    
+    #header .logo-main .mobile-menu-trigger{
+        right: 50px!important;
+    }
+    
+    #wpfront-notification-bar.wpfront-fixed{
+        z-index:999!important;
+    }
+    
+    
+}
+
+
+
+
+.stm-single-car-side{
+    min-width: 320px;
+}
+
+.aim-button {
+    margin: 3px 0px 0px 0px;
+}
+
+#aim_lease_calculator{
+ /* max-width: 330px !important;*/
+}
+
+#aim_lease_calculator .lease-cal-heading h2 a {
+color: #fff!important;
+}
+
+[class*=vehicleListings].card .content .link .bzl-vcta-drawer .bzl-vcta a[data-bzl-id="aimexp-dp-cta"] {
+
+    background: none;
+
+}
+
+.test-drive {
+    
+    
+    background-image: url("../img/Book_Test_Drive_Base.png")!important;
+     background-color: #ef2e24;
+    width: 100%!important;
+ /* max-width: 330px !important;*/
+    background-repeat: no-repeat!important;
+    height: 42px!important;
+    box-shadow: none!important;
+    background-size: contain!important;
+    border: none!important;
+    background-position: center;
+    border-radius: 0px;
+}
+
+.test-drive:hover {
+        background-image: url("../img/Book_Test_Drive_Hover.png")!important;
+       background-repeat: no-repeat!important;
+    background-color: #fd7f7a;
+    transition: background-color 0.3s ease-in-out;
+    opacity: 1!important;
+    background-size: contain!important;
+    box-shadow: 0 4px 17px rgba(0,0,0,0.15)!important;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+
+
+
+
+.aim-g-review {
+    
+    background-image: url("../img/Google_Base.png")!important;
+    background-color: #ef2e24;
+    width: 100%!important;
+    /* max-width: 330px !important;*/
+    background-repeat: no-repeat!important;
+    height: 42px!important;
+    box-shadow: none!important;
+    background-size: contain!important;
+    border: none!important;
+    border-radius: 0px;
+    background-position: center;
+    
+}
+
+
+.aim-g-review:hover {
+    background-image: url("../img/Google_Hover.png")!important;
+       background-repeat: no-repeat!important;
+    background-color: #fd7f7a;
+    transition: background-color 0.3s ease-in-out;
+    opacity: 1!important;
+    background-size: contain!important;
+    box-shadow: 0 4px 17px rgba(0,0,0,0.15)!important;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.value-trade-aim{
+    background-image: url("../img/Value_Trade_Base.png")!important;
+    width: 100%!important;
+    background-color: #ef2e24;
+   /* max-width: 330px !important;*/
+    background-repeat: no-repeat!important;
+    height: 42px!important;
+    box-shadow: none!important;
+    background-size: contain!important;
+    border: none!important;
+    border-radius: 0px;
+    background-position: center;
+    
+}
+
+.value-trade-aim:hover{
+    background-image: url("../img/Value_Trade_Hover.png")!important;
+       background-repeat: no-repeat!important;
+    background-color: #fd7f7a;
+    transition: background-color 0.3s ease-in-out;
+    opacity: 1!important;
+    background-size: contain!important;
+    box-shadow: 0 4px 17px rgba(0,0,0,0.15)!important;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+
+
+
+
+.make-offer-aim{
+    background-image: url("../img/Make_Offer_Base.png")!important;
+    width: 100%!important;
+    background-color: #ef2e24;
+    /* max-width: 330px !important;*/
+    background-repeat: no-repeat!important;
+    height: 42px!important;
+    box-shadow: none!important;
+    background-size: contain!important;
+    border: none!important;
+    border-radius: 0px;
+    background-position: center;
+}
+
+.make-offer-aim:hover{
+     background-image: url("../img/Make_Offer_Hover.png")!important;
+       background-repeat: no-repeat!important;
+    background-color: #fd7f7a;
+    transition: background-color 0.3s ease-in-out;
+    opacity: 1!important;
+    background-size: contain!important;
+    box-shadow: 0 4px 17px rgba(0,0,0,0.15)!important;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.credit-apply-aim{
+    background-image: url("../img/Apply_For_Credit_Base.png")!important;
+    width: 100%!important;
+    background-color: #ef2e24;
+    /* max-width: 330px !important;*/
+    background-repeat: no-repeat!important;
+    height: 42px!important;
+    box-shadow: none!important;
+    background-size: contain!important;
+    border: none!important;
+    border-radius: 0px;
+    background-position: center;
+}
+
+.credit-apply-aim:hover{
+    background-image: url("../img/Apply_For_Credit_Hover.png")!important;
+       background-repeat: no-repeat!important;
+    background-color: #fd7f7a;
+    transition: background-color 0.3s ease-in-out;
+    opacity: 1!important;
+    background-size: contain!important;
+    box-shadow: 0 4px 17px rgba(0,0,0,0.15)!important;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.reserve-now{
+    background-image: url("../img/Reserve_Base.png")!important;
+    width: 100%!important;
+    background-color: #ef2e24;
+    /* max-width: 330px !important;*/
+    background-repeat: no-repeat!important;
+    height: 42px!important;
+    box-shadow: none!important;
+    background-size: contain!important;
+    border: none!important;
+    border-radius: 0px;
+    background-position: center;
+}
+
+.reserve-now:hover{
+    background-image: url("../img/Reserve_Hover.png")!important;
+        background-repeat: no-repeat!important;
+    background-color: #fd7f7a;
+    transition: background-color 0.3s ease-in-out;
+    opacity: 1!important;
+    background-size: contain!important;
+    box-shadow: 0 4px 17px rgba(0,0,0,0.15)!important;
+  transition: box-shadow 0.3s ease-in-out;
+   
+}
+
+
+
+
+
+.vsa-modal{
+    background-image: url("../img/CTA_With_Negotiate.gif")!important;
+    background-color: #ef2e24;
+      width: 100%!important;
+  /* max-width: 330px !important;*/
+    background-repeat: no-repeat!important;
+    height: 42px!important;
+    box-shadow: none!important;
+    background-size: contain!important;
+    background-position: center;
+    border: none!important;
+    border-radius: 0px;
+    
+}
+
+
+#aim_calculator_preview_boxes .aim_calculator_preview_box_render {
+    border: 1.5px solid #000!important;
+    box-shadow: none!important;
+    border-radius: 0px!important;
+    margin-bottom: 5px!important;
+}
+
+#aim_calculator_preview_boxes .aim_calculator_preview_box_main_button {
+    background: white!important;
+    border-radius: 0px!important;
+    color: #ef2e24!important;
+    font-weight: bolder!important;
+    border: solid!important;
+    padding: 0px!important;
+    text-transform: uppercase!important;
+}
+
+#aim_calculator_preview_boxes .aim_calculator_preview_box_main_button{
+    margin-top: 0px!important;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    
+    
+}
