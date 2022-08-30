@@ -19,44 +19,6 @@ function aim_integration_setup_menu(){
 }
 
 
-
-
-
-
-function shortcode_aim() {
-
-	ob_start();
-	?> 
-
-
-
-    <img src="<?php echo plugin_dir_url( __FILE__ ) . '/img/aim-experts-logo.png'; ?>">
-
-    <h1>The easiest way to intergrate AIM with your WordPress site    </h1>
-
-
-    <p>Just add some simple shortcode to your VDP and Listing pages<p>
-    <p>Add this shortcode to your VDP page.  <p>
-        <pre>[aim-buttons-static]</pre>
-<p>If adding code to template file use the following code</p>
-<pre>&lt;?php echo do_shortcode("[aim-buttons-static]"); ?&gt;</pre> 
-<p>for floating buttons add the following code to template file.</p>
-    <pre>&lt;?php echo do_shortcode("[aim-buttons-float]"); ?&gt;</pre> 
-<p>To add just VSA and calculator buttons to the vdp use the following short code</p>
-<pre>[aim-buttons-vdp]</pre>
-<p>or use this code within the template file</p>
-    <pre>&lt;?php echo do_shortcode("[aim-buttons-vdp]"); ?&gt;</pre>
-<p>Add this shortcode to your VLP page.  <p>
-<pre>[aim-buttons-listing]</pre>
-<p>If adding code to template file use the following code</p>
-<pre>&lt;?php echo do_shortcode("[aim-buttons-listing]"); ?&gt;</pre>
-                
-     <?php
-	echo ob_get_clean();
-}
-
-
-
 add_action('wp_enqueue_scripts', 'plugin_styles');
 
 function plugin_styles() {
@@ -275,4 +237,6 @@ register_activation_hook( __FILE__, 'myplugin_activate' );
         
         }
 
-
+        include( plugin_dir_path( __FILE__ ) . 'includes/slack.php'); 
+        include( plugin_dir_path( __FILE__ ) . 'includes/shortcodes.php');  
+        include( plugin_dir_path( __FILE__ ) . 'includes/av-admin.php');
